@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-custom-color {
+    background: linear-gradient(to bottom, #cdeeff 0%, #6097d9 100%);  
+    border: 1px solid #4c9ed9;
+}
+
+.text-custom-color {
+    color:#9bbbe6;
+}
+
+.quote-custom {
+    background-color: #efefef;
+    border-style: inset;
+}
+
+.bg-upper-footer {
+    background-color: #989898;
+}
+
+.bg-lower-footer {
+    background-color: #666666;
+}
+
+.triangle {
+    > div {
+        position: absolute;
+        bottom: -20px;
+        right: 15px;
+        width: 0; 
+        height: 0; 
+        width: 0;
+        height: 0;
+        border-left: 10px solid #efefef; 
+        border-top: 10px solid #efefef;
+        border-right: 10px solid transparent ; 
+        border-bottom: 10px solid transparent;
+    }
+ 
+}
+
+@media (max-width: 767px) {
+    .row {
+        text-align: center;
+    }
+
+    .arrow1-custom, .arrow2-custom {
+        display: none;
+    }
+
+    .col-md-3 {
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+@media (min-width: 768px) {
+    .arrow1-custom {
+    top:-8px;
+    left:-60px;
+    }
+
+    .arrow2-custom {
+        top:-80px;
+        left:40px;
+    }
+}	
